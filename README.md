@@ -121,8 +121,3 @@ GET /contentful-index/_search
 - Create a frontend app to visualize and search Contentful data
 - Automate Contentful data sync with webhooks or scheduled jobs
 
----
-
-## License
-
-MIT © Your Name
