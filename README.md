@@ -129,11 +129,10 @@ GET /contentful-index/_search
 
 ---
 
-## Next Steps
+## Video Tutorial
 
-- Build a backend API to interact with OpenSearch
-- Create a frontend UI for searching and displaying results
-- Automate sync from Contentful using webhooks or scheduled tasks
+[![Watch the video](/screenshots/titlecard.jpg)](https://www.youtube.com/watch?v=LRBjNdx-5So)
+
 
 ---
 
