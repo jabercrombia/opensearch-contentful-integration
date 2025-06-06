@@ -27,16 +27,19 @@ This project demonstrates how to integrate **Contentful** CMS data with **OpenSe
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/opensearch-contentful.git
-   cd opensearch-contentful
+   git clone https://github.com/jabercrombia/opensearch-contentful-integration.git
+   cd opensearch-contentful-integration
    ```
 
 2. Create a `.env` file in the project root with the following variables:
 
    ```env
-   CONTENTFUL_SPACE_ID=your_contentful_space_id
-   CONTENTFUL_ACCESS_TOKEN=your_contentful_access_token
-   OPENSEARCH_PASSWORD=your_opensearch_password
+   CONTENTFUL_ACCESS_TOKEN=
+   CONTENTFUL_SPACE_ID=
+   USERNAME=
+   PASSWORD=
+   CONTENTTYPE=
+   INDEX_NAME=
    ```
 
 3. Start OpenSearch and OpenSearch Dashboards with Docker Compose:
@@ -50,7 +53,10 @@ This project demonstrates how to integrate **Contentful** CMS data with **OpenSe
    ```bash
    docker ps
    ```
-
+5. In your terminal in the root directory of the project run the below script. This will pull in the specific content id defined in your .env file into opensearch.
+```
+node sync.js
+```
 ---
 
 ## Usage
