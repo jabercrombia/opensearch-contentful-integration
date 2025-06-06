@@ -67,9 +67,9 @@ opensearch-contentful-integration/
    - **INDEX_NAME**: Desired index name for storing entries in OpenSearch  
 
 3. Install node packages
-  ```
-  npm install
-  ```
+    ```
+    npm install
+    ```
 
 4. Start OpenSearch and OpenSearch Dashboards:
 
