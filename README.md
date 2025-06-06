@@ -130,5 +130,3 @@ GET /contentful-index/_search
 - Ensure your `.env` file is correctly configured
 
 ---
-
-MIT © jabercrombia
