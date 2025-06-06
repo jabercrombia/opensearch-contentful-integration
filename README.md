@@ -64,19 +64,24 @@ opensearch-contentful-integration/
    - **USERNAME** & **PASSWORD**: OpenSearch Dashboard login credentials  
    - **INDEX_NAME**: Desired index name for storing entries in OpenSearch  
 
-3. Start OpenSearch and OpenSearch Dashboards:
+3. Install node packages
+  ```
+  npm install
+  ```
+
+4. Start OpenSearch and OpenSearch Dashboards:
 
    ```bash
    docker compose up -d
    ```
 
-4. Check that containers are running:
+5. Check that containers are running:
 
    ```bash
    docker ps
    ```
 
-5. Run the sync script to import Contentful entries:
+6. Run the sync script to import Contentful entries:
 
    ```bash
    node sync.js
@@ -84,7 +89,7 @@ opensearch-contentful-integration/
 
 ---
 
-## 🔍 Usage
+## Usage
 
 Navigate to [`http://localhost:5601/app/dev_tools#/console`](http://localhost:5601/app/dev_tools#/console) and run the following query:
 
@@ -104,7 +109,7 @@ GET /contentful-index/_search
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 - Remove conflicting containers:
 
@@ -124,7 +129,7 @@ GET /contentful-index/_search
 
 ---
 
-## 📌 Next Steps
+## Next Steps
 
 - Build a backend API to interact with OpenSearch
 - Create a frontend UI for searching and displaying results
