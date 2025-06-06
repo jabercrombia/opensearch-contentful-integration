@@ -51,8 +51,10 @@ can be found in Settings > API KEYS > APIs > Content Delivery API - access token
 
    **USERNAME**
    This is the username you will need to login to the Opensearch dashboard
+  
    **PASSWORD**
    This is the password you will need to login to the Opensearch dashboard
+
    **INDEX_NAME**
    Create a name for the index in Opensearch
    
