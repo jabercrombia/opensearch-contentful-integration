@@ -1,7 +1,7 @@
 
 # OpenSearch + Contentful Integration
 
-![login](/screenshots/login.png)
+[![Watch the video](/screenshots/titlecard.jpg)](https://www.youtube.com/watch?v=LRBjNdx-5So)
 
 This project demonstrates how to integrate **Contentful** CMS data with **OpenSearch** for powerful search and analytics capabilities. The setup uses Docker Compose to run OpenSearch and OpenSearch Dashboards locally, allowing you to visualize and query your content.
 
@@ -131,7 +131,6 @@ GET /contentful-index/_search
 
 ## Video Tutorial
 
-[![Watch the video](/screenshots/titlecard.jpg)](https://www.youtube.com/watch?v=LRBjNdx-5So)
 
 
 ---
