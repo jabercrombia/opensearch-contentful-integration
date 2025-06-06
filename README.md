@@ -54,17 +54,27 @@ This project demonstrates how to integrate **Contentful** CMS data with **OpenSe
    docker ps
    ```
 5. In your terminal in the root directory of the project run the below script. This will pull in the specific content id defined in your .env file into opensearch.
-```
-node sync.js
-```
+   ```
+   node sync.js
+   ```
 ---
 
 ## Usage
 
-- Access OpenSearch Dashboards UI at: `http://localhost:5601`
-- Use your Contentful syncing script or app to push data into OpenSearch
-- Query OpenSearch via REST API or use Dashboards to build visualizations
+Navigate to `http://localhost:5601/app/dev_tools#/console` and copy the below into the console
 
+```
+GET /contentful-index/_search
+{
+  "query": {
+    "multi_match": {
+      "query": "{search term}",
+      "fields": ["title", "description", "body"]
+    }
+  }
+}
+```
+![console dashboard](/screenshots/console-search.png)
 ---
 
 ## Troubleshooting
@@ -98,4 +108,3 @@ node sync.js
 ## License
 
 MIT © Your Name
-# opensearch-contentful-integration
