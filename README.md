@@ -1,5 +1,6 @@
 
 # OpenSearch + Contentful Integration
+![login](/screenshots/login.png)
 
 This project demonstrates how to integrate **Contentful** CMS data with **OpenSearch** for advanced search and analytics capabilities. The setup uses Docker Compose to run OpenSearch and OpenSearch Dashboards locally.
 
@@ -46,6 +47,7 @@ can be found in Settings > API KEYS > APIs > Content Delivery API - access token
    
    **CONTENTFUL_SPACE_ID**
    can be found in Settings > API KEYS > APIs > Space ID field
+   
    **CONTENTTYPE**
    You can find the content type in your content model
 
