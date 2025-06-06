@@ -106,6 +106,7 @@ GET /contentful-index/_search
   }
 }
 ```
+Here you will see the left pane is the search query and the right pane is the result of that query. It returned one hit or content asset matching the search query.
 
 ![console dashboard](/screenshots/console-search.png)
 
