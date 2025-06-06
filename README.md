@@ -61,7 +61,7 @@ This project demonstrates how to integrate **Contentful** CMS data with **OpenSe
 
 ## Usage
 
-Navigate to `http://localhost:5601/app/dev_tools#/console` and copy the below into the console
+Navigate to `http://localhost:5601/app/dev_tools#/console` and copy the below into the console and click the play button on the right side.
 
 ```
 GET /contentful-index/_search
