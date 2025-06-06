@@ -23,6 +23,17 @@ This project demonstrates how to integrate **Contentful** CMS data with **OpenSe
 
 ---
 
+## File Directory
+opensearch-contentful-integration/
+├── docker-compose.yml # Docker setup for OpenSearch and Dashboards
+├── .env # Environment variables (Contentful & OpenSearch)
+├── sync.js # Script to sync Contentful entries into OpenSearch
+├── README.md # Project documentation
+├── package.json # Node.js dependencies and scripts
+└── node_modules/ # Installed packages
+
+---
+
 ## Setup
 
 1. Clone the repository:
