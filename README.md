@@ -41,18 +41,19 @@ This project demonstrates how to integrate **Contentful** CMS data with **OpenSe
    CONTENTTYPE=
    INDEX_NAME=
    ```
-   CONTENTFUL_ACCESS_TOKEN
-   can be found in Settings > API KEYS > APIs > Content Delivery API - access token field
-   CONTENTFUL_SPACE_ID
+   **CONTENTFUL_ACCESS_TOKEN**
+can be found in Settings > API KEYS > APIs > Content Delivery API - access token field
+   
+   **CONTENTFUL_SPACE_ID**
    can be found in Settings > API KEYS > APIs > Space ID field
-   CONTENTTYPE
+   **CONTENTTYPE**
    You can find the content type in your content model
 
-   USERNAME
+   **USERNAME**
    This is the username you will need to login to the Opensearch dashboard
-   PASSWORD
+   **PASSWORD**
    This is the password you will need to login to the Opensearch dashboard
-   INDEX_NAME
+   **INDEX_NAME**
    Create a name for the index in Opensearch
    
 3. Start OpenSearch and OpenSearch Dashboards with Docker Compose:
